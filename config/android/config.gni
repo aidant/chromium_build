@@ -157,6 +157,11 @@ if (is_android) {
     }
   }
 
+  declare_args() {
+    android_ndk_version = "r26c"
+    android_ndk_major_version = 26
+  }
+
   android_ndk_root = "//third_party/android_toolchain/ndk"
 
   public_android_sdk_root = "//third_party/android_sdk/public"
